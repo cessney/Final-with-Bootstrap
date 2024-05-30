@@ -1,0 +1,70 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #333;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    background: linear-gradient(to right, #70a1ff, #7bed9f); /* Apply gradient background */
+    -webkit-background-clip: text; /* Clip the background to the text */
+    -webkit-text-fill-color: transparent; /* Hide the text color */
+}
+
+.navbar-brand:hover {
+    -webkit-text-fill-color: #fff; /* Change text color on hover */
+}
+
+.nav-link {
+    color: #333 !important;
+}
+
+.nav-link:hover {
+    color: #000 !important;
+}
+
+.hero {
+    background: linear-gradient(to right, #70a1ff, #7bed9f);
+    padding: 5rem 0;
+}
+
+.hero h1 {
+    color: #fff;
+}
+
+.accent-color {
+    color: #1a73e8;
+}
+
+.card {
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #f8f9fa; /* Set background color */
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); /* Add box shadow */
+}
+
+.card-title {
+    color: #333;
+}
+
+.card-text {
+    color: #555; /* Adjusted text color */
+}
+
+.btn-outline-dark {
+    color: #333;
+    border-color: #333;
+}
+
+.btn-outline-dark:hover {
+    color: #fff;
+    background-color: #333;
+    border-color: #333;
+}
+
+.footer {
+    background: linear-gradient(to right, #ffcd00, #ff4b1f);
+}
+
+.footer .container {
+    padding: 1rem 0;
+}
